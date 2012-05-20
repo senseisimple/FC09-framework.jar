@@ -1624,7 +1624,7 @@
 
 	if-ne p2, v4, :cond2
 
-	iget-object v2, p0, Landroid/media/AudioService;->mContentResolver:Landroid/content/ContentResolver
+	iget-object v2, p0, Landroid/media/AudioService;->mContentResolver:Landroid/content/ContentResolver;
 
 	invoke-static {v2, v6, v4}, Landroid/provider/Settings$System;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;I)I
 
